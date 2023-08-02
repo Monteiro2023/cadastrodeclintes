@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/cadastro.css">
+    <title>Cadastro</title>
+</head>
+<body>
+    <h1 class="form">Cadastro de clientes</h1><br><br>
+    
+    <form class="form" action="#" method="post">
+        <div class="grupo_formulario">
+            <label for="nome" class="">Nome:</label><br>
+            <input type="text" name="nome" class="form"><br>
+            <label for="sobre_nome" class="">Sobrenome:</labl><br>
+            <input type="text" name="nome" class="for"><br>
+            <label for="data_nascimento">Data de Nascimento:</label><br>
+            <input type="date" name="data_nascimento"><br>
+        </div><br>
+
+        <div class="telefone">
+            <label for="telefone">Digite seu melhor número de telefone:</label><br>
+        <input type="telefone" id="telefone" name="telefone" placeholder="19-99999-9999" pattern="[19]{5}-{4}"required>
+        </div><br>
+
+        <div class="endereco">
+            <label for="nome" class="">Rua:</label><br>
+            <input type="text" name="rua"><br>
+            <label for="nome" class="">Bairro:</label><br>
+            <input type="text" name="bairro"><br>
+            <label for="bairro"></label>
+            <label for="nome" class="">Cidade:</label><br>
+            <input type="text" name="cidade"><br><br>
+            <input type="submit" value="enviar">
+            <input type="submit" value="limpar">
+        </div><br>
+        
+        
+        <div class="categoria">
+            <h2>Selecione em qual categoria você gostaria de se relacionar com nossa empresa</h2>
+            <input type="radio" id="varejo" name="varejo" value="varejo">
+            <label for="varejo">Varejo</label><br><br>
+            <input type="radio" id="atacado" name="atacado" value="atacado">
+            <label for="varejo">Atacado</label><br><br>
+            <input type="radio" id="forncedor" name="fornecedor" value="Fornecedor">
+            <label for="varejo">Fornecedor</label><br><br>
+            <input type="submit" value="enviar">
+            <input type="submit" value="limpar">
+            
+
+        
+
+        </div>
+    </form>
+
+
+</body>
+</html>

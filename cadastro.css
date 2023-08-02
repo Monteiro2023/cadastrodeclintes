@@ -1,0 +1,33 @@
+.form{
+    background-color: rgba(28, 37, 97, 0.219);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgba(15, 10, 1, 0.995);
+    font-size: 60px;
+}
+
+
+.grupo_formulario{
+    background-color: rgb(163, 171, 226);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgba(15, 10, 1, 0.995);
+    font-size: 20px;
+    
+}
+.telefone{
+    background-color: rgb(163, 171, 226);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgba(15, 10, 1, 0.995);
+    font-size: 20px;
+}
+.endereco{
+    background-color: rgb(163, 171, 226);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgba(15, 10, 1, 0.995);
+    font-size: 20px;
+}
+.categoria{
+    background-color: rgb(163, 171, 226);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgba(15, 10, 1, 0.995);
+    font-size: 20px;
+}
